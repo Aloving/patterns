@@ -1,0 +1,58 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'fira_sanslight';
+    src: url('../fonts/firasans-light-webfont.eot');
+    src: url('../fonts/firasans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-light-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansmedium';
+    src: url('../fonts/firasans-medium-webfont.eot');
+    src: url('../fonts/firasans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-medium-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* BASE */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: fira_sanslight, 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #ffffff;
+    line-height: 1.4;
+    color: #4f4f4f;
+    min-width: 650px;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* FIXES */
+
+* {
+    outline: none;
+}
+
